@@ -7,6 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* * {
+    margin: 0;
+    padding: 0;
+    border-radius: .75em;
+} */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -18,7 +24,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 0 0 0 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -172,13 +178,13 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 1.25em 0;
+		margin: 0 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		line-height: 1.25;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0 0;
 		color: #555;
 	}
 
@@ -841,10 +847,11 @@ input, select, textarea {
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
-		text-align: right;
+		text-align: center;
 		visibility: visible;
 		z-index: 10000;
 		right: 0;
+		margin: 0;
 	}
 
 		#main .toggle {
@@ -861,6 +868,7 @@ input, select, textarea {
 			z-index: 1;
 			background-position: 0.5em 0.5em;
 			left: 0;
+			margin: 0;
 		}
 
 		body.fullscreen #main {
@@ -929,7 +937,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 3em 2.25em 1.75em 2.25em ;
+		padding: 1em 2.25em 0.4em 2.25em ;
 	}
 
 		#header h1 {
@@ -940,7 +948,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 2.25em 2.25em 1em 2.25em ;
+		padding: 1em 2.25em 1em 2.25em ;
 	}
 
 		#footer .copyright {
@@ -991,6 +999,7 @@ input, select, textarea {
 				#thumbnails article .thumbnail img {
 					display: block;
 					width: 100%;
+					border-radius: 0;
 				}
 
 				#thumbnails article .thumbnail:before {
